@@ -11,7 +11,7 @@
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 h1, h2, h3, h4 {
@@ -48,3 +48,46 @@ h1, h2, h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
+.Futbrasil{
+    text-align: center;
+
+}
+	
+.jumbotron{
+    padding: 20px 20px 20px 40px;
+	background-color: #0a0;
+	color: #fff;
+}
+margin-right: 20px;
+     .post1{
+    margin-left: 30%;
+ }
+
+ #menublog ul{
+    padding:0px;
+    margin:0px;
+    background-color:#0a0;
+    list-style:none;
+ }
+
+ #menublog ul h1 { display: inline; }
+
+ #menublog ul h1 a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#0a0;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #0a0;
+}
+
+#menublog ul h1 a:hover {
+    background-color:#0a0;
+    color: #6D6D6D;
+    border-bottom:3px solid #0a0;
+}
+
+

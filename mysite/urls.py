@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from django.contrib import admin
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from django.contrib.auth import views
 
@@ -24,3 +25,5 @@ urlpatterns = [
     path('accounts/logout/', views.LogoutView.as_view(next_page='/'), name='logout'),
     path('', include('blog.urls')),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
